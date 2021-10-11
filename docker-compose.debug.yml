@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  express2021:
-    image: express2021
+  hello:
+    image: hello
     build:
       context: .
       dockerfile: ./Dockerfile
